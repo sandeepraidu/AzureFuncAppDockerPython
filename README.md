@@ -2,14 +2,6 @@ This repository hosts the instructions and neccessary artifacts for building and
 
 For comprehensive information about Python in Azure Functions, refer to the [azure-functions-python-worker](https://github.com/Azure/azure-functions-python-worker) repo.
 
-# Getting Started
-
-## Prerequisites
-
-* [Git](https://git-scm.com/downloads)
-* An active [Azure subscription](https://azure.microsoft.com/pricing/free-trial/?ref=microsoft.com&utm_source=microsoft.com&utm_medium=docs&utm_campaign=visualstudio)
-* [Docker](https://docs.docker.com/get-started/#setup)
-* A [Docker Hub account](https://docs.docker.com/docker-id/)
 
 ## Download the sample
 
