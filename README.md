@@ -47,6 +47,11 @@ https://wikiazure.com/devops/azure-devops-automate-your-release-pipeline-to-prov
 Container Registry 
 ![image](https://user-images.githubusercontent.com/48413770/89361685-7df48400-d691-11ea-94d9-c4adea75a3ce.png)
 
+Function App Settings:
+
+![image](https://user-images.githubusercontent.com/48413770/89361787-c318b600-d691-11ea-9825-4044e37b041f.png)
+
+
 
 
 
