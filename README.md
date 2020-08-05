@@ -37,33 +37,10 @@ RUN cd /home/site/wwwroot && pip install -r requirements.txt
 
 ## Build and deploy the custom image
 
-To build and test your image locally, and deploy to Azure, follow the instructions here -
-
-[Create a function on Linux using a custom image](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-function-linux-custom-image#run-the-build-command)
-
-## Configure storage
-
-Azure Functions needs a storage account in order to run locally.
-
-The best way to add this is to create a Storage Account in Azure and pass the connection string as an environment variable called `AzureWebJobsStorage` to the `docker run` command. 
+https://wikiazure.com/devops/azure-devops-automate-your-release-pipeline-to-provision-a-docker-container-to-azure-web-app-for-containers/
 
 
-``` bash
-docker run -p 8080:80 -it -e AzureWebJobsStorage="{connection-string}" <docker-id>/mydockerimage:v1.0.0
-```
 
 
-# Contributing
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.microsoft.com.
 
-When you submit a pull request, a CLA-bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
-# AzureFuncAppDockerPython
