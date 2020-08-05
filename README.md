@@ -41,6 +41,7 @@ https://wikiazure.com/devops/azure-devops-automate-your-release-pipeline-to-prov
 
 
 
+![releasepipeline](https://user-images.githubusercontent.com/48413770/89361577-408ff680-d691-11ea-857e-c98510e84b44.JPG)
 
 
 
